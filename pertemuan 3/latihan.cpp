@@ -1,17 +1,16 @@
-#include <iostream>
-using namespace std;
-main ()
-{
-    int nilai;
-    cout << "Masukkan Nilai : ";
-    cin >> nilai;
-    if (nilai % 10 == 0) {
-        cout << "Nilai adalah kelipatan 5 dan 10 ";
-    }
-    else if (nilai % 5 == 0) {
-        cout << "Nilai adalah kelipatan 5 ";
-    }
-    else {
-        cout << "Nilai bukan kelipatan keduanya";
-    }
-}
+#include <iostream> // header untuk C++
+using namespace std; // agar tidak menulis std diprogram
+
+main () { // memulai progarm
+    int nilai; // variabel yang digunakan
+    cout << "Masukkan Nilai : "; // output
+    cin >> nilai; // input nilai
+    
+    if (nilai % 10 == 0) { // jika nilai mod 10 = 0 maka
+        cout << "Nilai adalah kelipatan 5 dan 10 "; // output akan dieksekusi
+    } else if (nilai % 5 == 0) { // jika nilai mod 5 = 0 maka
+        cout << "Nilai adalah kelipatan 5 "; // output akan dieksekusi
+    } else { // jika nilai mod 10 dan mod 5 tidak sama dengan 0 maka
+        cout << "Nilai bukan kelipatan keduanya"; // output akan dieksekusi
+    } // akhir if else if statement
+} // akhir program
