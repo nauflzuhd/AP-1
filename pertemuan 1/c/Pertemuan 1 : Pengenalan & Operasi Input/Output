@@ -1,7 +1,7 @@
 #include <stdio.h> // header untuk C
 #include <conio.h> // header untuk getch, getche
 
-int main() {
+int main() { // memulai program
     char nama[50]; // variabel nama bertipe data char maksimal 50
     int nim; // variabel nim bertipe data integer
     char kom[2]; // variabel kom bertipe data char maksimal 2
@@ -35,4 +35,4 @@ int main() {
 
     printf("press any button to continue..."); // output
     getch(); // mengambil satu karakter tanpa ditampilkan
-}
+} // akhir program
