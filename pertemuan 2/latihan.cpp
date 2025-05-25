@@ -1,5 +1,5 @@
 #include <iostream> // header C++
-using namespace std; // agar tidak memakai std diprogram
+using namespace std; // agar tidak memakai std di program
 
 main() { // memulai program
     float jari, volume, luas; // variabel yang digunakan program
