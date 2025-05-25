@@ -1,6 +1,6 @@
 #include <iostream> // Header C++
 #include <vector> // Header library Vector
-using namespace std; // agar tidak menulis std diprogram
+using namespace std; // agar tidak menulis std di program
 
     // Vector Declaration & Initialization, deklarasi dan inisialisasi vektor
     /* bedanya vektor dan array */
