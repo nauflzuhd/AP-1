@@ -1,7 +1,7 @@
 #include<iostream> // Header C++
 #include<string> // Header library string
 #include<array> // Header library array
-using namespace std; // agar tidak menulis std diprogram
+using namespace std; // agar tidak menulis std di program
 
 int main() { // memulai main program
     //Array Declaration & Initialitzation (deklarasi dan inisialisasi)
