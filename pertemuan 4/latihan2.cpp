@@ -8,6 +8,7 @@ int main() { // memulai main program
     cout << "Masukkan kalimat: "; // output
     getline(cin, kalimat); // input menggunakan getline agar bisa membaca karakter spasi
 
+    // for looping untuk mengubah huruf vokal yang tadinya huruf kecil menjadi huruf kapital
     for (int i = 0; i < kalimat.length(); i++) { // for looping untuk i = 0,dieksekusi jika i kurang dari panjang karakter kalimat, i di increment
         if (kalimat[i] == 'a' || kalimat[i] == 'e' || kalimat[i] == 'i' || kalimat[i] == 'o' || kalimat[i] == 'u') { // jika i kurang dari panjang karakter kalimat dan jika kalimat indeks ke-i merupakan huruf vokal kecil maka
             kalimat[i] = toupper(kalimat[i]); // kalimat indeks ke-i akan dieksekusi
