@@ -1,5 +1,5 @@
 #include <iostream> // Header untuk C++
-using namespace std; // agar tidak menulis std diprogram 
+using namespace std; // agar tidak menulis std di program 
 
 int main() { // memulai main program
     // goto label, loncat ke label yang sudah ditentukan
