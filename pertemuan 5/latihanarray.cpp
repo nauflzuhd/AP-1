@@ -1,7 +1,7 @@
 #include <iostream> // Header untuk C++
 #include <string> // Header untuk library string
 #include <array> // Header untuk library array
-using namespace std; // agar tidak menulis std diprogram
+using namespace std; // agar tidak menulis std di program
 
 int main() { // memulai main program
     //penjumlahan matriks 2x2
