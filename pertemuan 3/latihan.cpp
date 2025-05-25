@@ -5,7 +5,8 @@ main () { // memulai progarm
     int nilai; // variabel yang digunakan
     cout << "Masukkan Nilai : "; // output
     cin >> nilai; // input nilai
-    
+
+    // statement if untuk mengecek apakah nilai merupakan bilangan kelipatan 10 atau 5
     if (nilai % 10 == 0) { // jika nilai mod 10 = 0 maka
         cout << "Nilai adalah kelipatan 5 dan 10 "; // output akan dieksekusi
     } else if (nilai % 5 == 0) { // jika nilai mod 5 = 0 maka
