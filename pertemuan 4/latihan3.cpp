@@ -1,5 +1,5 @@
 #include <iostream> // header untuk C++
-using namespace std; // agar tidak menulis std diprogram
+using namespace std; // agar tidak menulis std di program
 
 int main() { // memulai program
     string password, sandi, expected = ""; // variabel yang digunakan, untuk expected diisi " "
