@@ -1,5 +1,5 @@
 #include <iostream> // header untuk C++
-using namespace std; // agar tidak menulis std diprogram
+using namespace std; // agar tidak menulis std di program
 
 int main() { // memulai main program
     string kalimat; // baris 5 dan 6 adalah variabel yang digunakan
