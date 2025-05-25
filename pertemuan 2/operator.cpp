@@ -1,5 +1,5 @@
 #include <iostream> // header C++
-using namespace std; // agar tidak menulis std diprogram
+using namespace std; // agar tidak menulis std di program
 main() { // memulai program
     int a,b; // variabel yang digunakan
     system("cls"); // agar tampilan layar bersih
