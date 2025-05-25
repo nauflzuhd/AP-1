@@ -1,24 +1,24 @@
-#include <iostream>
-using namespace std;
+#include <iostream> // Header untuk C++
+using namespace std; // agar tidak menulis std di program
 
-string namaGlobal = "Ilmu";
+string namaGlobal = "Ilmu"; // variabel yang digunakan ( variabel global )
 
-string namaVariabel() {
-    string namaLokal = "Komputer";
-
-    //coba akses
-    cout << namaLokal << endl;
+string namaVariabel() { // fungsi namaVariabel
+    string namaLokal = "Komputer"; // variabel yang digunakan ( variabel lokal )
 
     //coba akses
-    cout << namaGlobal << endl;
-}
+    cout << namaLokal << endl; // output variabel lokal
 
-int main() {
-    namaVariabel();
+    //coba akses
+    cout << namaGlobal << endl; // output variabel global
+} // akhir fungsi namaVariabel
+
+int main() { // memulai main program
+    namaVariabel(); // memanggil fungsi namaVariabel
     
     //coba akses
-    cout << namaGlobal << endl;
+    cout << namaGlobal << endl; // output variabel global
     
     //coba akses
-    // gak bisa //cout << namaLokal << endl;
-}     
+    cout << namaLokal << endl; // tidak bisa karena merupakan variabel lokal pada fungsi namaVariabel
+} // akhir main program
