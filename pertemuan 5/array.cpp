@@ -1,6 +1,6 @@
 #include<iostream> // Header C++
-#include<string> // Header fungsi string
-#include<array> // Header fungsi array
+#include<string> // Header library string
+#include<array> // Header library array
 using namespace std; // agar tidak menulis std diprogram
 
 int main() { // memulai main program
